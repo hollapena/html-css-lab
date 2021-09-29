@@ -1,6 +1,45 @@
+body{
+    display:grid;
+    grid-template-areas:
+    "header header header"
+    "sidebar1 middle sidebar2"
+    "sidebar1 footer sidebar2";
+}
+
+
 header{
-    background-color:rgb(56, 56, 56)
+    grid-area:header;
+    background-color:rgb(56, 56, 56);
+    height: 15vh;
+    width:100vw;
+}
+.middle{
+    grid-area:middle;
+    background-color:white;
+    height:73vh;
+    margin:0;
+}
+#sidebar1{
+    grid-area:sidebar1;
+    background-color:lightgray;
+    height:83vh;
+    justify-self: left;
+}
+#sidebar2{
+    grid-area:sidebar2;
+    background-color:lightgray;
+    height:83vh;
+    justify-self: right;
 }
 footer{
-    background-color:rgb(56, 56, 56,);
+    grid-area:footer;
+    background-color:rgb(56, 56, 56);
+    height:10vh;
+    width:62vw;
+    margin:0;
+}
+.sidebar{
+    margin:0;
+    height:80vh;
+    width:19vw;
 }

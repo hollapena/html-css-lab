@@ -1,0 +1,86 @@
+body{
+    display:grid;
+    grid-template-areas: 
+    "shapes shapes shapes"
+    "shadowbox shadowbox shadowbox"
+    ". textbox .";
+    grid-row-gap:12px;
+}
+#shapes{
+    grid-area:shapes;
+    height: 25vh;
+    border-style:solid;
+    border-width:5px;
+    display:grid;
+    grid-template-columns:5% 35% 20%;
+    grid-column-gap:25px;
+    padding-left:20px;
+    margin:12px 12px 0px 12px;
+}
+
+#purple-rectangle{
+    align-self:center;
+    justify-self:center;
+    height: 70%;
+    width:100%;
+    background-color:rgb(137, 3, 181);
+    margin-left:10px;
+    margin-right:20px;
+}
+
+#green-rectangle{
+    align-self: center;
+    justify-self:right;
+    height:90%;
+    width:100%;
+    background-color:green;
+}
+#blue-circle{
+    align-self: center;
+    justify-self:right;
+    height:90%;
+    width:100%;
+    background-color:lightblue;
+    border-radius:50%;
+}
+
+#shadowbox{
+    grid-area:shadowbox;
+    height:30vh;
+    border-style:dotted;
+    border-width:5px;
+    margin-top:20px;
+    margin-bottom:20px;
+    display:grid;
+
+}
+#box{
+    align-self:center;
+    height: 70%;
+    width:90%;
+    background-color:rgb(255, 249, 199);
+    box-shadow: 8px 8px 4px rgba(0,0,0,.7);
+    margin:auto;
+}
+
+#textbox{
+    grid-area:textbox;
+    height:35vmin;
+    width:50vmin;
+    border-style:solid;
+    border-width:1px;
+    border-color:lightgray;
+    box-shadow:3px 3px 2px lightgray;
+    text-align: center;
+    justify-self:center;
+    display:grid;
+
+}
+#text{
+    color:darkblue;
+    letter-spacing:8px;
+    font-weight:bolder;
+    font-size:30px;
+    margin:auto;
+    align-self: center;
+}
