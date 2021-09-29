@@ -1,0 +1,47 @@
+#grey-rectangle{
+    width:100vw;
+    height:12vh;
+    background-color:rgb(226, 226, 226);
+    display:grid;
+}
+#bluebox{
+    align-self:center;
+    width:10%;
+    height:80%;
+    background-color:rgb(96, 142, 226);
+    margin-left:2%;
+}
+#white-rectangle{
+    width:100vw;
+    height:28vh;
+    display:grid;
+}
+p{
+    width:100vw;
+    margin-left:50px;
+    align-self:center;
+    text-align:justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:22px;
+}
+#blue-rectangle{
+    width:100vw;
+    height:15vh;
+    background-color:rgb(96, 142, 226);
+}
+#teal-rectangle{
+    width:100vw;
+    height:15vh;
+    background-color:rgb(124, 220, 210);
+}
+#green-rectangle{
+    width:100vw;
+    height:15vh;
+    background-color:rgb(208, 237, 120);
+}
+#yellow-rectangle{
+    width:100vw;
+    height:15vh;
+    background-color:rgb(249, 237, 77);
+
+}
